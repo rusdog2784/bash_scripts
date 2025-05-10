@@ -7,11 +7,11 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Prompt for user name
-read -p "Please enter the name of the user who will run the service:" user_name
+read -p "Please enter the name of the user who will run the service: " user_name
 user_name=${user_name:-$service_name}
 
 # Prompt for service name
-read -p "Please enter the name of the service (NOTE: a directory will be created in /opt with the name you enter):" service_name
+read -p "Please enter the name of the service (NOTE: a directory will be created in /opt with the name you enter): " service_name
 
 # Create the user
 echo "Creating user '$user_name'..."
