@@ -135,8 +135,6 @@ network:
     ens18:
       addresses:
         - ${static_ip}/24
-      nameservers:
-        addresses: [${gateway}]
       routes:
         - to: default
           via: ${gateway}
