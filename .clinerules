@@ -1,0 +1,4 @@
+- When creating new bash scripts, choose an appropriate subdirectory, or create a new one that generally encompasses the script's purpose.
+- All bash scripts should have a "help" flag that outputs a description of the script, available parameters for the script, and example commands.
+- All bash scripts should walk the user through each of the steps it is performing and require user input and/or user confirmation.
+- All bash scripts should have pretty, informative output statements describing what is going on.
