@@ -133,7 +133,7 @@ network:
   renderer: networkd
   ethernets:
     ens18:
-	  dhcp4: true
+      dhcp4: true
       addresses:
         - ${static_ip}/24
       routes:
